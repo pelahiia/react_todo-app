@@ -20,6 +20,10 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 0,
     '@typescript-eslint/ban-types': 0,
     '@typescript-eslint/semi': ['error'],
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': ['error'],
+    'jsx-a11y/label-has-for': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
   },
   parser: '@typescript-eslint/parser',
   plugins: [
